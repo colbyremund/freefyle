@@ -1,9 +1,13 @@
 html {
     height: 100%;
 }
+
 body {
 	background-image: linear-gradient(rgb(0, 180, 252), rgb(0, 119, 255));
 }
+
+/* ============ HEADER ============ */
+
 .mainlogo {
 	display: block;
 	margin: 0 auto;
@@ -11,6 +15,7 @@ body {
 	height: 18%;
 	width: 18%;
 }
+
 .introcopy {
 	font-family: 'Quicksand', sans-serif;
 	margin-top: 50px;
@@ -24,9 +29,13 @@ body {
 	letter-spacing: 5px;
 	text-transform: uppercase;
 }
+
+/* ============ DROP SECTION ============ */
+
 .drophere-holder {
 	position: relative;
 }
+
 .drophere-front {
 	display: block;
 	position: relative;
@@ -37,21 +46,9 @@ body {
 	border: 2px rgba(255, 255, 255, 0.85) dashed;
 	margin-top: 1px;
 	border-radius: 30px;
-	background-color: rgba(255, 255, 255, 0.15);
-	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.0);
+	background-color: rgba(255, 255, 255, 0.1);
 }
-.drophere-back {
-	display: block;
-    position: absolute;
-    top: -10px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    height: 604px;
-    width: 80.2%;
-    border-radius: 38px;
-    border: 10px rgba(255, 255, 255, 0.15) solid;
-    z-index: -1;
-}
+
 .plusicon {
 	display: block;
 	margin: 0 auto;
@@ -59,6 +56,7 @@ body {
 	height: 80px;
 	width: 80px;
 }
+
 .dottedlinecta {
 	position: relative;
 	padding: 0 20px 0 20px;
@@ -70,3 +68,21 @@ body {
 	text-align: center;
 	letter-spacing: -1px;
 }
+
+/* ============ DRAG AND DROP HOVER ============ */
+
+/*
+.drophere-back {
+	display: block;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 604px;
+    width: 80.2%;
+    border-radius: 38px;
+    border: 10px rgba(255, 255, 255, 0.15) solid;
+	z-index: -1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 
+}
+*/
